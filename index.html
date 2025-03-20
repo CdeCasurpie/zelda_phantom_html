@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OceanView</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Zelda-inspired navbar -->
+    <div class="navbar">
+        <div class="navbar-logo">OceanView</div>
+        <div class="navbar-links">
+            <a href="#">Inicio</a>
+            <a href="#">Galería</a>
+            <a href="#">Sobre Nosotros</a>
+            <a href="#">Contacto</a>
+        </div>
+    </div>
+    
+    <div class="degradado"></div>
+    <div class="nubes">
+        <img src="logo.webp" alt="The Legend of Zelda: Phantom Hourglass" class="game-logo">
+    </div>
+    <div id="video-container">
+        <video autoplay loop muted>
+            <source src="water.webm" type="video/webm">
+            Tu navegador no soporta el video.
+        </video>
+        <!-- Ship animation layer -->
+        <div class="ship-container">
+            <video class="ship-animation" autoplay loop muted>
+                <source src="ship.webm" type="video/webm">
+                Tu navegador no soporta el video.
+            </video>
+        </div>
+    </div>
+    <div class="bottom"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
